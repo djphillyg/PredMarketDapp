@@ -1,0 +1,25 @@
+{
+  "name": "my-market",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "create-html": "^4.0.0",
+    "ethjs": "^0.2.8",
+    "express": "^4.15.4",
+    "file-loader": "^0.11.2",
+    "jquery": "^3.2.1",
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "^1.0.13",
+    "truffle": "^3.4.9",
+    "truffle-contract": "^2.0.5",
+    "web3": "^1.0.0-beta.18"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  }
+}

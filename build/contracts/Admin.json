@@ -1,0 +1,58 @@
+{
+  "contract_name": "Admin",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_admin",
+          "type": "address"
+        }
+      ],
+      "name": "addAdmin",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "mAdmin",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "mOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60008054600160a060020a033316600160a060020a031991821681179092556001805490911690911790555b5b61015f806100496000396000f300606060405263ffffffff60e060020a600035041663704802758114610037578063c71f844e14610067578063dcda4bf314610093575bfe5b341561003f57fe5b610053600160a060020a03600435166100bf565b604080519115158252519081900360200190f35b341561006f57fe5b610077610115565b60408051600160a060020a039092168252519081900360200190f35b341561009b57fe5b610077610124565b60408051600160a060020a039092168252519081900360200190f35b6000805433600160a060020a039081169116146100dc5760006000fd5b600160a060020a03821615156100f25760006000fd5b5060018054600160a060020a031916600160a060020a0383161781555b5b919050565b600154600160a060020a031681565b600054600160a060020a0316815600a165627a7a72305820e46a926a5534c081a82523dabe4756cc66037690ad0b3a54592cd4673b9493780029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504626381219
+}
